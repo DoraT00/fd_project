@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+.body_players{
+    margin: 31px 140px;
+}
+
+.Players {
+    font-size: 40px;
+    font-family: 'Golos Text';
+    font-weight: 700;
+    width: 145px;
+    height: 48px;
+    margin-bottom: 31px;
+}
+
+.body_players > input {
+    margin-bottom: 31px;
+    background-color: #F3F3F3;
+    border: none;
+    height: 48px;
+    width: 601px;
+    border-radius: 18px;
+}
+
+.body_players > input[placeholder] {
+    color: #6F6F6F;
+    font-size: 16px;
+}
+
+.body_players > input:focus {
+    border: none;
+}
+
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    column-gap: 55px;
+    row-gap: 35px;
+}
+
+.Player {
+    display: flex;
+    background-color: #F3F3F3;
+    width: 350px;
+    height: 110px;
+    border-radius: 32px;
+}
+
+.Player > img {
+    width: 96px;
+    height: 96px;
+    margin: 7px 14px;
+}
+
+#name {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.info_player {
+    display: inline-block;
+    margin-top: 33px;
+    font-family: 'Golos Text';
+    font-size: 16px;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+.body {
+    height: 80px;
+    width: auto;
+    background-color: #F3F3F3;
+}
+
+.logo { 
+    width: 48px;
+    height: 48px;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+
+.buttons {
+    display: inline;
+    margin-left: 42px;
+    position: relative;
+    bottom: 16px;
+}
+
+.buttons > button{
+    margin-right: 3px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 18px;
+    
+}
+
+.buttons > button:hover{
+    background-color: #FAFAFA;
+}
+
+.buttons > button > p{
+    margin: 14px 12px 14px 12px;
+    font-size: 16px;
+    font-family: 'Golos Text';
+}
+
+.buttons > .notice {
+    background-color: black;
+    color:#FFFFFF;
+    margin-left: 900px;
+}
+
+.buttons > .notice:hover {
+    background-color: black;
+}
