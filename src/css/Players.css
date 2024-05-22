@@ -46,6 +46,11 @@
     border-radius: 32px;
 }
 
+.Player:hover{
+    background-color: #FAFAFA;
+    transition: 0.2s;
+}
+
 .Player > img {
     width: 96px;
     height: 96px;
